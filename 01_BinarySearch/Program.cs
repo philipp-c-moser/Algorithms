@@ -20,7 +20,7 @@ namespace _01_BinarySearch
 
         // This method will return the position of the given parameter
         // If not available, it should return null
-        private static int? BinarySearch(List<int> list)
+        private static int? BinarySearch(List<int> list, int searchItem)
         {
             // will save the current searching-part of list
             int lowest = 0;
