@@ -2,7 +2,7 @@
 
 # Algorithms
 ### Build Status
-[![Build Status](https://dev.azure.com/philipp-c-moser/LearningAlgorithms/_apis/build/status/philipp-c-moser.LearningAlgorithms?branchName=master)](https://dev.azure.com/philipp-c-moser/LearningAlgorithms/_build/latest?definitionId=10&branchName=master)
+[![Build Status](https://dev.azure.com/philipp-c-moser/Algorithms/_apis/build/status/philipp-c-moser.Algorithms?branchName=master)](https://dev.azure.com/philipp-c-moser/Algorithms/_build/latest?definitionId=11&branchName=master)
 
 
 ### Description
