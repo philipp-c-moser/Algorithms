@@ -22,7 +22,13 @@ namespace _01_BinarySearch
         // If not available, it should return null
         private static int? BinarySearch(List<int> list)
         {
-            return 0;
+            // will save the current searching-part of list
+            int lowest = 0;
+            int highest = list.Count() - 1;
+
+
+
+            return null;
         }
     }
 }
