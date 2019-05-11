@@ -26,7 +26,11 @@ namespace _01_BinarySearch
             int lowest = 0;
             int highest = list.Count() - 1;
 
-
+            while (lowest <= highest)
+            {
+                // Check only the element in the middle
+                int middle = (lowest + highest) / 2;
+            }
 
             return null;
         }
