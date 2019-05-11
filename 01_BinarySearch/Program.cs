@@ -10,6 +10,18 @@ namespace _01_BinarySearch
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("01 Binary Search");
+
+
+            Console.ReadKey();
+        }
+
+
+        // This method will return the position of the given parameter
+        // If not available, it should return null
+        private static int? BinarySearch()
+        {
+            return 0;
         }
     }
 }
