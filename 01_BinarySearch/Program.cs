@@ -33,6 +33,18 @@ namespace _01_BinarySearch
 
                 // guess, that the element in the middle will be the searched item
                 int guess = list[middle];
+
+                
+                // The guessed value was to large
+                if (guess > searchItem)
+                {
+                    highest = middle - 1;
+                }
+                // The guessed value was to small
+                else
+                {
+                    lowest = middle + 1;
+                }
             }
 
             return null;
