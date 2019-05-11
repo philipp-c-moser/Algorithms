@@ -31,8 +31,16 @@ namespace _01_BinarySearch
                 // Check only the element in the middle
                 int middle = (lowest + highest) / 2;
 
-                // guess, that the element in the middle will be the searched item
+                // guess, that the element in the middle
+                // will be the searched item
                 int guess = list[middle];
+
+                // The guessed value was correct
+                // and match to the searchItem-Value
+                if (guess == searchItem)
+                {
+                    return middle;
+                }
 
                 
                 // The guessed value was to large
