@@ -12,7 +12,11 @@ namespace _01_BinarySearch
         {
             Console.WriteLine("01 Binary Search");
 
+            // List with all values
             List<int> searchList = new List<int> { 4, 2, 6, 9, 1, 7, 5, 3 };
+
+            // Call the Search Method
+            Console.WriteLine(BinarySearch(searchList, 9));
 
             Console.ReadKey();
         }
