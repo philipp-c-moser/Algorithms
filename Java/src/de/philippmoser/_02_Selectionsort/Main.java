@@ -24,4 +24,14 @@ public class Main
 
     }
 
+
+    private static int findSmallestFrom(List<Integer> list)
+    {
+        int valueOfSmallest = list.get(0);
+        int indexOfSmallest = 0;
+
+
+        return indexOfSmallest;
+    }
+
 }
