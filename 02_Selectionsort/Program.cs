@@ -13,5 +13,13 @@ namespace _02_Selectionsort
             Console.WriteLine("02 Selectionsort");
             Console.ReadKey();
         }
+
+
+        // Before writing values in a new array
+        // the smallest list-item must be found
+        private static int FindSmallestFrom(List<int> list)
+        {
+
+        }
     }
 }
