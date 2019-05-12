@@ -22,6 +22,9 @@ public class Main
         sortingList.add(13);
         sortingList.add(35);
 
+
+        System.out.println(selectionSort(sortingList));
+
     }
 
 
