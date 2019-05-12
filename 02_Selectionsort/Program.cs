@@ -22,6 +22,14 @@ namespace _02_Selectionsort
             // Save the index of the smallest value
             int indexOfSmallest = 0;
 
+
+            // Loop all List-Items
+            for (int i = 0; i < list.Count; i++)
+            {
+
+            }
+            
+
             return indexOfSmallest;
         }
     }
