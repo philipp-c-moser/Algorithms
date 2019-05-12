@@ -29,7 +29,15 @@ public class Main
     {
         List<Integer> finalList = new ArrayList<>(list.size());
 
-        
+        for(int i = 0; i < list.size(); i++)
+        {
+            int smallest = findSmallestFrom(list);
+
+            finalList.add(list.get(smallest));
+
+            list.remove(smallest);
+        }
+
         return finalList;
     }
 
