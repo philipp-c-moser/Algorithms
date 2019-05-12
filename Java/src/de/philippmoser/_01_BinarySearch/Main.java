@@ -7,6 +7,8 @@ public class Main {
 
         System.out.println("01 Binary Search");
 
+        int[] searchList = { 4, 2, 6, 9, 1, 7, 5, 3 };
+
     }
 
 
