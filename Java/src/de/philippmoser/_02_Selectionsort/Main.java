@@ -30,6 +30,14 @@ public class Main
         int valueOfSmallest = list.get(0);
         int indexOfSmallest = 0;
 
+        for(int i = 0; i < list.size(); i++)
+        {
+            if(list.get(i) < valueOfSmallest)
+            {
+                valueOfSmallest = list.get(i);
+                indexOfSmallest = i;
+            }
+        }
 
         return indexOfSmallest;
     }
