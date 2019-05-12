@@ -19,6 +19,9 @@ namespace _02_Selectionsort
         // the smallest list-item must be found
         private static int FindSmallestFrom(List<int> list)
         {
+            // Save the smallest value
+            int valueOfSmallest = list[0];
+
             // Save the index of the smallest value
             int indexOfSmallest = 0;
 
