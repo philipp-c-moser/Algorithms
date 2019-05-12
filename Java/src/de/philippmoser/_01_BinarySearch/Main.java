@@ -10,6 +10,8 @@ public class Main
 
         int[] searchList = { 4, 2, 6, 9, 1, 7, 5, 3 };
 
+        System.out.println(binarySearch(searchList, 9));
+
     }
 
 
