@@ -15,7 +15,7 @@ namespace _02_Selectionsort
             // List with sortable Integers
             List<int> sortingList = new List<int> { 50, 12, 72, 48, 12, 84, 3, 13, 35 };
 
-            Console.WriteLine(SelectionSort(sortingList));
+            Console.WriteLine(string.Join(",",SelectionSort(sortingList)));
 
             Console.ReadKey();
         }
