@@ -19,6 +19,10 @@ namespace _02_Selectionsort
             Console.ReadKey();
         }
 
+        private static int[] SelectionSort(List<int> list)
+        {
+
+        }
 
 
         // Before writing values in a new array
