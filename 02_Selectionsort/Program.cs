@@ -29,10 +29,17 @@ namespace _02_Selectionsort
             // Loop all List-Items
             for (int i = 0; i < list.Count; i++)
             {
-
+                // If the current item is smaller than
+                // the first item
+                if (list[i] < valueOfSmallest)
+                {
+                    valueOfSmallest = list[i];
+                    indexOfSmallest = i;
+                }
             }
-            
 
+            // After Looping all items
+            // return the index of the smallest
             return indexOfSmallest;
         }
     }
