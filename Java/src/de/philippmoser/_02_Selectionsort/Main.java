@@ -22,7 +22,9 @@ public class Main
     {
         List<Integer> finalList = new ArrayList<>(list.size());
 
-        for(int i = 0; i < list.size(); i++)
+        int listSize = list.size();
+
+        for(int i = 0; i < listSize; i++)
         {
             int smallest = findSmallestFrom(list);
 
