@@ -10,6 +10,8 @@ namespace _02_Selectionsort
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("02 Selectionsort");
+            Console.ReadKey();
         }
     }
 }
