@@ -21,7 +21,10 @@ namespace _02_Selectionsort
 
         private static int[] SelectionSort(List<int> list)
         {
+            // Create a new Array where the sorted values will be stored
+            var finalList = new int[list.Count];
 
+            return finalList;
         }
 
 
