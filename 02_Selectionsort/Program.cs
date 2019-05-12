@@ -24,6 +24,17 @@ namespace _02_Selectionsort
             // Create a new Array where the sorted values will be stored
             var finalList = new int[list.Count];
 
+            // Get the smallest value and add it to finalList
+            for (int i = 0; i < finalList.Length; i++)
+            {
+                // Get the smallest value from current list
+                int smallest = FindSmallestFrom(list);
+
+                // Add the smallest value from list to finalList
+                finalList[i] = list[smallest];
+            }
+
+
             return finalList;
         }
 
