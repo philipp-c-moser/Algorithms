@@ -25,6 +25,15 @@ public class Main
     }
 
 
+    private static List<Integer> selectionSort(List<Integer> list)
+    {
+        List<Integer> finalList = new ArrayList<>(list.size());
+
+        
+        return finalList;
+    }
+
+
     private static int findSmallestFrom(List<Integer> list)
     {
         int valueOfSmallest = list.get(0);
