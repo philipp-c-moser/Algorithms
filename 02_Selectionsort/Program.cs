@@ -33,6 +33,10 @@ namespace _02_Selectionsort
 
                 // Add the smallest value from list to finalList
                 finalList[i] = list[smallest];
+
+                // Because the new loop should not
+                // find the current smallest value
+                list.RemoveAt(smallest);
             }
 
 
