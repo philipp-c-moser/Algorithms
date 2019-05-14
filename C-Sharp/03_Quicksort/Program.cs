@@ -15,5 +15,12 @@ namespace _03_Quicksort
 
             Console.ReadKey();
         }
+
+
+        private static int Count()
+        {
+            return 1;
+        }
+
     }
 }
