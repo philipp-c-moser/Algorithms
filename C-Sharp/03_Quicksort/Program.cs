@@ -37,6 +37,11 @@ namespace _03_Quicksort
             // This element is called Pivot
             var pivot = list.First();
 
+            // Search for elements,
+            // that are smaller than pivot
+            var less = list.Skip(1).Where(i => i <= pivot);
+
+
         }
 
 
