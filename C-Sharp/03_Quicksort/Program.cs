@@ -15,6 +15,10 @@ namespace _03_Quicksort
             // Console.WriteLine(Count(new[] { 1, 2, 3, 4, 5 }));
 
 
+            // QuickSort
+            var sortItems = new[] { 12, 4, 8, 3, 1, 5 };
+
+
             Console.ReadKey();
         }
 
