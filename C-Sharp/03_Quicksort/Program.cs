@@ -12,11 +12,18 @@ namespace _03_Quicksort
         {
             Console.WriteLine("03 Quicksort");
 
-            Console.WriteLine(Count(new[] { 1, 2, 3, 4, 5 }));
+            // Console.WriteLine(Count(new[] { 1, 2, 3, 4, 5 }));
 
 
             Console.ReadKey();
         }
+
+
+        private static void QuickSort()
+        {
+
+        }
+
 
 
         private static int Count(IEnumerable<int> list)
