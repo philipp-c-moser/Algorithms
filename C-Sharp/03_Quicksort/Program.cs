@@ -42,6 +42,11 @@ namespace _03_Quicksort
             var less = list.Skip(1).Where(i => i <= pivot);
 
 
+            // Get elements,
+            // that are greater than pivot
+            var greater = list.Skip(1).Where(i => i > pivot);
+
+
 
             // Recursive Call of QuickSort
             return QuickSort(less);
