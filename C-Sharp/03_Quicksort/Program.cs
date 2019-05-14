@@ -17,7 +17,7 @@ namespace _03_Quicksort
 
             // QuickSort
             var sortItems = new[] { 12, 4, 8, 3, 1, 5 };
-            Console.WriteLine(string.Join(", ", QuickSort()));
+            Console.WriteLine(string.Join(", ", QuickSort(sortItems)));
 
 
             Console.ReadKey();
@@ -42,6 +42,9 @@ namespace _03_Quicksort
             var less = list.Skip(1).Where(i => i <= pivot);
 
 
+
+            // Recursive Call of QuickSort
+            return QuickSort(less);
         }
 
 
