@@ -26,7 +26,12 @@ namespace _03_Quicksort
 
         private static IEnumerable<int> QuickSort(IEnumerable<int> list)
         {
-
+            // If the parameter contains only one item
+            // The list doesn't need to be sorted.
+            if (list.Count() <= 1)
+            {
+                return list;
+            }
         }
 
 
