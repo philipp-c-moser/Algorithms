@@ -49,7 +49,7 @@ namespace _03_Quicksort
 
 
             // Recursive Call of QuickSort
-            return QuickSort(less);
+            return QuickSort(less).Union(greater);
         }
 
 
