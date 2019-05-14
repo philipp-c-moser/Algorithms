@@ -24,8 +24,9 @@ namespace _03_Quicksort
             {
                 return 0;
             }
-
-            return 1;
+            
+            // Call the Count() Method recursive
+            return 1 + Count(list.Skip(1));
         }
 
     }
