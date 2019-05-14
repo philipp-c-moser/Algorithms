@@ -47,11 +47,12 @@ namespace _03_Quicksort
             var greater = list.Skip(1).Where(i => i > pivot);
 
 
-            // Generate a temp list for save values
-            var tmpPivot = new List<int> { pivot };
 
-            // Recursive Call of QuickSort
-            return QuickSort(less).Union(tmpPivot).Union(QuickSort(greater));
+            // Build final Array and add
+            // less / greater values around tempPivot
+            return QuickSort(less)
+                .Union(new List<int> { pivot })
+                .Union(QuickSort(greater));
         }
 
 
