@@ -17,7 +17,7 @@ namespace _03_Quicksort
         }
 
 
-        private static int Count()
+        private static int Count(IEnumerable<int> list)
         {
             return 1;
         }
