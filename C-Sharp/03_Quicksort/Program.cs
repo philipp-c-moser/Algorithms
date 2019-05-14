@@ -17,13 +17,14 @@ namespace _03_Quicksort
 
             // QuickSort
             var sortItems = new[] { 12, 4, 8, 3, 1, 5 };
+            Console.WriteLine(string.Join(", ", QuickSort()));
 
 
             Console.ReadKey();
         }
 
 
-        private static void QuickSort()
+        private static IEnumerable<int> QuickSort()
         {
 
         }
