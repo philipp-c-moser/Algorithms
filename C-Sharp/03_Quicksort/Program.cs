@@ -24,7 +24,7 @@ namespace _03_Quicksort
         }
 
 
-        private static IEnumerable<int> QuickSort()
+        private static IEnumerable<int> QuickSort(IEnumerable<int> list)
         {
 
         }
