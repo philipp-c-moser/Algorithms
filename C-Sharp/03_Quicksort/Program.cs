@@ -51,7 +51,7 @@ namespace _03_Quicksort
             var tmpPivot = new List<int> { pivot };
 
             // Recursive Call of QuickSort
-            return QuickSort(less).Union(QuickSort(greater));
+            return QuickSort(less).Union(tmpPivot).Union(QuickSort(greater));
         }
 
 
