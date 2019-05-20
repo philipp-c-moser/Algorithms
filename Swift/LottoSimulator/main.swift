@@ -10,4 +10,6 @@ import Foundation
 
 print("LottoSimulator")
 
+let guessNumbers = [1, 6, 12, 14, 25, 33]
+
 
