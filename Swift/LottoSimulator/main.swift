@@ -19,5 +19,7 @@ var count = 0
 
 repeat {
     
+    count += 1
+    
 // Loop, as long as the arrays doesn't match
 } while guessNumbers != lotto
