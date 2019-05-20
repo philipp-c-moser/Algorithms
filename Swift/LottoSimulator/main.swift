@@ -18,6 +18,13 @@ var lotto: [Int]
 var count = 0
 
 repeat {
+    var set = Set<Int>()
+    
+    repeat {
+        // Simulate getting Lotto-Number
+        set.insert(Int.random(in: 1...49))
+    } while(set.count < 6)
+    
     
     count += 1
     
