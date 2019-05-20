@@ -12,4 +12,7 @@ print("LottoSimulator")
 
 let guessNumbers = [1, 6, 12, 14, 25, 33]
 
+var lotto: [Int]
 
+// Number of getting Lotto-Numbers
+var count = 0
