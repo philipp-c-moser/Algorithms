@@ -25,8 +25,9 @@ repeat {
         set.insert(Int.random(in: 1...49))
     } while(set.count < 6)
     
-    
     count += 1
+    
+    print("Guessings until now: \(count)")
     
 // Loop, as long as the arrays doesn't match
 } while guessNumbers != lotto
