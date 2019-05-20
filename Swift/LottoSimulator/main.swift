@@ -29,7 +29,9 @@ repeat {
     
     count += 1
     
-    print("Guessings until now: \(count)")
+    if count % 100_000 == 0 {
+        print("Guessings until now: \(count)")
+    }
     
 // Loop, as long as the arrays doesn't match
 } while guessNumbers != lotto
