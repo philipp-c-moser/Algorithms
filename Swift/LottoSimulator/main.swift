@@ -33,3 +33,6 @@ repeat {
     
 // Loop, as long as the arrays doesn't match
 } while guessNumbers != lotto
+
+
+print("Six right values needed \(count) guessings")
