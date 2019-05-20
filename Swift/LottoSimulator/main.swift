@@ -16,3 +16,8 @@ var lotto: [Int]
 
 // Number of getting Lotto-Numbers
 var count = 0
+
+repeat {
+    
+// Loop, as long as the arrays doesn't match
+} while guessNumbers != lotto
