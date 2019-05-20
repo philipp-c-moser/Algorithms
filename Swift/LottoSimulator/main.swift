@@ -25,6 +25,8 @@ repeat {
         set.insert(Int.random(in: 1...49))
     } while(set.count < 6)
     
+    lotto = Array(set).sorted(by: <)
+    
     count += 1
     
     print("Guessings until now: \(count)")
