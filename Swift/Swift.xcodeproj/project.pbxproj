@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A364CAA52293195C00F2954C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A364CAA42293195C00F2954C /* main.swift */; };
+		A390DAD022968CCF00C261FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390DACF22968CCF00C261FB /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		A364CAA12293195C00F2954C /* Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		A364CAA42293195C00F2954C /* main.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A390DACF22968CCF00C261FB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		A364CA982293195C00F2954C = {
 			isa = PBXGroup;
 			children = (
+				A390DACE22968C9600C261FB /* 01_BinarySearch */,
 				A364CAA32293195C00F2954C /* LottoSimulator */,
 				A364CAA22293195C00F2954C /* Products */,
 			);
@@ -60,6 +63,14 @@
 				A364CAA42293195C00F2954C /* main.swift */,
 			);
 			path = LottoSimulator;
+			sourceTree = "<group>";
+		};
+		A390DACE22968C9600C261FB /* 01_BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				A390DACF22968CCF00C261FB /* main.swift */,
+			);
+			path = 01_BinarySearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A390DAD022968CCF00C261FB /* main.swift in Sources */,
 				A364CAA52293195C00F2954C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
