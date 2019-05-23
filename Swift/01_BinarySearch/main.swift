@@ -10,6 +10,11 @@ import Foundation
 
 // Proceed the Binary Search
 func binarySearch(_ list: [Int], item: Int) -> Int? {
+    
+    // save the current searching-part of list
+    var lowest = 0
+    var highest = list.count - 1
+    
     return nil
 }
 
