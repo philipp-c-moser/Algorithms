@@ -20,3 +20,7 @@ print("01 Binary Search")
 
 // Array with all searchable values
 let searchList = [ 4, 2, 6, 9, 1, 7, 5, 3 ]
+
+// Will return positiion of searched int
+// If not found, return "Not Found"
+print(binarySearch() ?? "Not Found")
