@@ -8,9 +8,9 @@
 
 import Foundation
 
-
-func binarySearch() {
-    
+// Proceed the Binary Search
+func binarySearch() -> Int? {
+    return nil
 }
 
 
