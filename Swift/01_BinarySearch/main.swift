@@ -15,6 +15,15 @@ func binarySearch(_ list: [Int], item: Int) -> Int? {
     var lowest = 0
     var highest = list.count - 1
     
+    
+    while lowest <= highest {
+        
+        // Check only the element in the middle
+        // of the current range
+        let middle = lowest + (highest - lowest) / 2
+        
+    }
+    
     return nil
 }
 
