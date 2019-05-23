@@ -9,6 +9,13 @@
 import Foundation
 
 
+func binarySearch() {
+    
+}
+
+
+
+
 print("01 Binary Search")
 
 // Array with all searchable values
