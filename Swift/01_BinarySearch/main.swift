@@ -22,6 +22,10 @@ func binarySearch(_ list: [Int], item: Int) -> Int? {
         // of the current range
         let middle = lowest + (highest - lowest) / 2
         
+        // guess, that the element in the middle
+        // will be the searched item
+        let guess = list[middle]
+        
     }
     
     return nil
