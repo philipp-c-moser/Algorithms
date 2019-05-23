@@ -31,6 +31,13 @@ func binarySearch(_ list: [Int], item: Int) -> Int? {
             return middle
         }
         
+        // If guessing was to hight or to low
+        if guess > item {
+            highest = middle - 1
+        } else {
+            lowest = middle + 1
+        }
+        
     }
     
     return nil
