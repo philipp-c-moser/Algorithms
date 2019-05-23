@@ -26,6 +26,11 @@ func binarySearch(_ list: [Int], item: Int) -> Int? {
         // will be the searched item
         let guess = list[middle]
         
+        // The asserted value was correct
+        if guess == item {
+            return middle
+        }
+        
     }
     
     return nil
