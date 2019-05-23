@@ -9,7 +9,7 @@
 import Foundation
 
 // Proceed the Binary Search
-func binarySearch() -> Int? {
+func binarySearch(_ list: [Int], item: Int) -> Int? {
     return nil
 }
 
@@ -23,4 +23,4 @@ let searchList = [ 4, 2, 6, 9, 1, 7, 5, 3 ]
 
 // Will return positiion of searched int
 // If not found, return "Not Found"
-print(binarySearch() ?? "Not Found")
+print(binarySearch(searchList, item: 1) ?? "Not Found")
