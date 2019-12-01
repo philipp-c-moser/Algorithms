@@ -54,7 +54,9 @@ namespace AirportConnections
             var startingAirport = "LGA";
 
 
-            AirportConnection.AirportConnections(airports, routes, startingAirport);
+            var minNumberOfConnections = AirportConnection.AirportConnections(airports, routes, startingAirport);
+
+            Console.WriteLine("The minimum number of airport connections, that need to be added in order for someone to be able to reach any airport in the list is: " + minNumberOfConnections);
             
         }
     }
