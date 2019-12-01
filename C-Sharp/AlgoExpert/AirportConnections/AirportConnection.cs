@@ -16,7 +16,7 @@ namespace AirportConnections
 
             MarkUnreachableConnections(airportGraph, unreachableAirportNodes);
 
-            return 0;
+            return GetMinNumberOfNewConnections(airportGraph, unreachableAirportNodes);
         }
 
 
@@ -123,8 +123,33 @@ namespace AirportConnections
                 DepthFirstAddUnreachableConnections(airportGraph, connection, unreachableConnections, visitedAirports);
             }
 
+        }
 
 
+        private static int GetMinNumberOfNewConnections(Dictionary<string, AirportNode> airportGraph, List<AirportNode> unreachableAirportNodes)
+        {
+
+            unreachableAirportNodes.Sort((airport1, airport2) => airport2.UnreachableConnections.Count - airport1.UnreachableConnections.Count);
+
+            var numberOfNewConnections = 0;
+
+            foreach(var airportNode in unreachableAirportNodes)
+            {
+                if(airportNode.IsReachable)
+                {
+                    continue;
+                }
+
+                numberOfNewConnections++;
+
+                foreach(var connection in airportNode.UnreachableConnections)
+                {
+                    airportGraph[connection].IsReachable = true;
+                }
+            }
+
+
+            return numberOfNewConnections;
         }
 
     }
