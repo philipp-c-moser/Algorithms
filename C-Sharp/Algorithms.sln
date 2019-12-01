@@ -13,11 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SearchAndSort", "SearchAndS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgoExpert", "AlgoExpert", "{4EC85070-F844-409D-96C5-79191C970A8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeNumberSum", "AlgoExpert\ThreeNumberSum\ThreeNumberSum.csproj", "{A26A04B3-D20D-4E22-BC3A-B77D8644C14F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeNumberSum", "AlgoExpert\ThreeNumberSum\ThreeNumberSum.csproj", "{A26A04B3-D20D-4E22-BC3A-B77D8644C14F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThreeNumberSum", "ThreeNumberSum", "{C1AE6651-8691-41D1-9EEA-5D219CA15231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeNumberSum.Test", "TestProjects\ThreeNumberSum.Test\ThreeNumberSum.Test.csproj", "{0A86D098-5999-4FB6-9C7A-E52FF31AB417}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeNumberSum.Test", "TestProjects\ThreeNumberSum.Test\ThreeNumberSum.Test.csproj", "{0A86D098-5999-4FB6-9C7A-E52FF31AB417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportConnections", "AlgoExpert\AirportConnections\AirportConnections.csproj", "{17A3A3B1-E166-43BA-86EB-A88605258A3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AirportConnections", "AirportConnections", "{FC0F749A-25B4-4355-B1DF-A95B9F65601A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportConnections.Test", "TestProjects\AirportConnections.Test\AirportConnections.Test.csproj", "{9499B74F-B87E-418F-AA36-79B7C12B78D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,14 @@ Global
 		{0A86D098-5999-4FB6-9C7A-E52FF31AB417}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A86D098-5999-4FB6-9C7A-E52FF31AB417}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A86D098-5999-4FB6-9C7A-E52FF31AB417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A3A3B1-E166-43BA-86EB-A88605258A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A3A3B1-E166-43BA-86EB-A88605258A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A3A3B1-E166-43BA-86EB-A88605258A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A3A3B1-E166-43BA-86EB-A88605258A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9499B74F-B87E-418F-AA36-79B7C12B78D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9499B74F-B87E-418F-AA36-79B7C12B78D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9499B74F-B87E-418F-AA36-79B7C12B78D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9499B74F-B87E-418F-AA36-79B7C12B78D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +70,9 @@ Global
 		{A26A04B3-D20D-4E22-BC3A-B77D8644C14F} = {C1AE6651-8691-41D1-9EEA-5D219CA15231}
 		{C1AE6651-8691-41D1-9EEA-5D219CA15231} = {4EC85070-F844-409D-96C5-79191C970A8A}
 		{0A86D098-5999-4FB6-9C7A-E52FF31AB417} = {C1AE6651-8691-41D1-9EEA-5D219CA15231}
+		{17A3A3B1-E166-43BA-86EB-A88605258A3B} = {FC0F749A-25B4-4355-B1DF-A95B9F65601A}
+		{FC0F749A-25B4-4355-B1DF-A95B9F65601A} = {4EC85070-F844-409D-96C5-79191C970A8A}
+		{9499B74F-B87E-418F-AA36-79B7C12B78D6} = {FC0F749A-25B4-4355-B1DF-A95B9F65601A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D93FB1E-27B9-4B8C-A651-AE566547003F}
