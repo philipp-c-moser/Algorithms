@@ -25,9 +25,38 @@ namespace ThreeNumberSum
         // Sample Output:   [[-8, 2, 6], [-8, 3, 5], [-6, 1, 5]]
         public static List<int[]> ThreeNumberSum(int[] array, int targetSum)
         {
-            var triplets = new List<int[]>();          
+            var triplets = new List<int[]>();         
             
             Array.Sort(array);
+
+            for(int i = 0; i < array.Length -2; i++)
+            {
+                var left = i + 1;
+                var right = array.Length - 1;
+
+                while(left < right)
+                {
+                    var currentSum = array[i] + array[left] + array[right];
+
+                    if(currentSum == targetSum)
+                    {
+                        int[] newTriplet = { array[0] + array[1] + array[right] };
+                        triplets.Add(newTriplet);
+
+                        left++;
+                        right--;
+                    }
+                    else if( currentSum < targetSum)
+                    {
+                        left++;
+                    }
+                    else if(currentSum > targetSum)
+                    {
+                        right--;
+                    }
+                }
+            }
+
 
 
 
