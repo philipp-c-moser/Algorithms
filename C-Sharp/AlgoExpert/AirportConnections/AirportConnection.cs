@@ -4,7 +4,16 @@ using System.Text;
 
 namespace AirportConnections
 {
-    class AirportConnection
+    public class AirportConnection
     {
+
+
+        public static int AirportConnections(List<string> airports, List<List<string>> routes, string startingAirport)
+        {
+            return 0;
+        }
+
+
+
     }
 }
