@@ -12,6 +12,7 @@ namespace AirportConnections
         {
 
             var airportGraph = CreateAirportGraph(airports, routes);
+            var unreachableAirportNodes = GetUnreachableAirportNodes(airportGraph, airports, startingAirport);
 
             return 0;
         }
@@ -33,10 +34,33 @@ namespace AirportConnections
 
                 airportGraph[airport].Connections.Add(connection);
             }
-
-
+            
 
             return airportGraph;
+        }
+
+
+        private static List<AirportNode> GetUnreachableAirportNodes(Dictionary<string, AirportNode> airportGraph, List<string> airports, string startingAirport)
+        {
+
+            var visitedAirports = new Dictionary<string, bool>();
+            var unreachableAirportNodes = new List<AirportNode>();
+
+            foreach(var airport in airports)
+            {
+                if(visitedAirports.ContainsKey(airport))
+                {
+                    continue;
+                }
+
+                var airportNode = airportGraph[airport];
+                airportNode.IsReachable = false;
+                unreachableAirportNodes.Add(airportNode);
+
+            }
+
+            return unreachableAirportNodes;
+
         }
 
     }
