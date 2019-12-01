@@ -40,8 +40,7 @@ namespace ThreeNumberSum
 
                     if(currentSum == targetSum)
                     {
-                        int[] newTriplet = { array[0] + array[1] + array[right] };
-                        triplets.Add(newTriplet);
+                        triplets.Add(new int[] { array[i],  array[left], array[right] });
 
                         left++;
                         right--;
