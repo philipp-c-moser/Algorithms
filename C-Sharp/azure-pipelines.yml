@@ -5,6 +5,7 @@
 
 trigger:
 - master
+- algoexpert
 
 pool:
   vmImage: 'windows-latest'
